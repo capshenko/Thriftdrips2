@@ -1,45 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.navbar{
-  
-    justify-content: space-between;
+.nav{
+  justify-content:space-between;
+}
+.nav ul li{
+  display:inline-block;
+  padding:10px 30px;
+
 
 }
+.nav ul li a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
 
- li{
-    display: inline-block;
-}
-.navbar ul li a{
-    text-decoration: none;
-    padding: 5px 30px;
-    color: black;
-    font-weight: bold;
+
 
 }
-@media only screen and (max-width: 400px) {
-    .sdiv{
-      display:none;
-
-    
-    }
-    .tdiv{
-      display: contents;
-    }
-  }
 #logo{
-  float: left;
   font-family: pacifico;
 }
-
-
-.sdiv{
-  
-  float: right;
-  margin-top: 20px;
+.showcase{
+  height:80vh;
+ 
+  justify-content: space-around;
 }
-button{
-  color:white;
-  border:10px 30px;
-  margin-left: 400px;
+.card{
+  height:100px;
+}
+#card-image{
+  height:300px;
+  width:300px;
+
+}
+#card-button{
+  color: white;
+  float:right;
   background-color: black;
-  border-radius:5px;
+  border-radius: 1.5rem;
+  border: 2px solid white;
+  font-weight: bold;
+}
+#ksh{
+  font-weight: bold;
+}
+#cart{
+  border-radius: 20px;
+  color: white;
+  width: 40px;
+  height: 40px;
 }
