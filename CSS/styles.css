@@ -78,8 +78,8 @@ ul li a{
   .nav ul{
     display:none;
   }
-  .nav img{
-    display: contents;
+ #menu-icon{
+    display: block;
   }
   
   
