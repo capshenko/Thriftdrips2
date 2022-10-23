@@ -38,6 +38,7 @@ ul li a{
 
 }
 .footer{
+  padding: 10px 10px;
   display:flex;
  
   background-color: rgb(226, 225, 225);
